@@ -1,0 +1,4 @@
+<properties>
+    <property id="RelayApiKey" type="string"></property>
+    <property id="RelayBaseUrl" type="string">https://garmin-battery-alert-relay.garmin-battery-alert-relay.workers.dev</property>
+</properties>

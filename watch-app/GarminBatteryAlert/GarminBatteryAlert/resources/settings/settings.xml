@@ -1,0 +1,8 @@
+<settings>
+    <setting propertyKey="@Properties.RelayApiKey" title="@Strings.RelayApiKeyLabel">
+        <settingConfig type="password" />
+    </setting>
+    <setting propertyKey="@Properties.RelayBaseUrl" title="@Strings.RelayBaseUrlLabel">
+        <settingConfig type="url" />
+    </setting>
+</settings>

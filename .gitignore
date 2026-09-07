@@ -1,0 +1,57 @@
+# Repository-local backups
+/backups/
+
+# Build, package, and generated output
+/build/
+/watch-app/**/bin/
+*.prg
+*.iq
+*.prg.debug.xml
+*.mir
+*.set
+*.SET
+
+# Installed dependencies and generated test/build reports
+**/node_modules/
+**/dist/
+**/coverage/
+**/.cache/
+
+# Cloudflare/Wrangler local state
+**/.wrangler/
+.dev.vars*
+.env
+.env.*
+*.env
+*.env.*
+
+# Keep deliberately sanitized environment examples/templates eligible
+!.dev.vars.example
+!.dev.vars.example.*
+!.dev.vars.template
+!.dev.vars.template.*
+!.env.example
+!.env.example.*
+!.env.template
+!.env.template.*
+!*.env.example
+!*.env.template
+!*.example.env
+!*.template.env
+
+# Local credential/key files
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Logs and temporary/editor files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# macOS metadata
+.DS_Store
