@@ -198,6 +198,10 @@ This project was developed with substantial assistance from OpenAI Codex.
 
 AI assistance included implementation, testing, debugging, documentation, and project setup. Final behavior was validated on a physical Garmin vivoactive 4. OpenAI does not endorse, maintain, or support this project.
 
+## Related Projects
+
+[GarminCalBot](https://github.com/tzvika-por/GarminCalBot) is a separate Python/Telegram Garmin Connect calorie automation project by the same author. It tracks calories, verifies syncs, and sends scheduled daily reports.
+
 ## Disclaimer
 
 This project is provided “as is,” without warranty of any kind. Installation, configuration, deployment, and use are at your own responsibility. You are responsible for reviewing the code and protecting all credentials. The authors are not responsible for device behavior, missed alerts, service interruptions, data loss, API or platform changes, or other consequences arising from use of the project.
